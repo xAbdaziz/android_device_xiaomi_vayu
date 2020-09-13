@@ -160,6 +160,10 @@ on boot
     chown system system /proc/tp_selftest
     chown system system /sys/class/touch/touch_dev/palm_sensor
 
+# Vibration
+    chown system system /sys/module/qti_haptics/parameters/vmax_mv_override
+    chmod 0660 /sys/module/qti_haptics/parameters/vmax_mv_override
+
 # Add a cpuset for the camera daemon
 # We want all cores for camera
     mkdir /dev/cpuset/camera-daemon
