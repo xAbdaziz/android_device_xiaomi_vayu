@@ -9,3 +9,9 @@
 #     See the License for the specific language governing permissions and
 #     limitations under the License.
 #
+
+on boot
+
+    # Vibration
+    chown system system /sys/module/qti_haptics/parameters/vmax_mv_override
+    chmod 0660 /sys/module/qti_haptics/parameters/vmax_mv_override
