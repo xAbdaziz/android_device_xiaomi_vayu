@@ -339,6 +339,7 @@ PRODUCT_PACKAGES += \
    CarrierConfigOverlayVayu \
    DialerOverlayVayu \
    FrameworksResOverlayVayu \
+   SettingsLibOverlayVayu \
    SettingsOverlayVayu \
    SettingsProvidorOverlayVayu \
    SystemUIOverlayVayu \
