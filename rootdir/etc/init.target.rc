@@ -204,6 +204,15 @@ on boot
     setprop vendor.usb.controller a600000.dwc3
     setprop sys.usb.configfs 1
 
+on late-init
+    # Start services for bootanimation
+    start surfaceflinger
+    start themed_bootanimation
+    start bootanim
+    start vendor.hwcomposer-2-4
+    start vendor.configstore-hal
+    start vendor.qti.hardware.display.allocator
+
 on property:vendor.display.lcd_density=560
    setprop dalvik.vm.heapgrowthlimit 256m
 
