@@ -231,6 +231,14 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
+# GPS
+PRODUCT_PACKAGES += \
+     android.hardware.gnss@2.1-impl-qti:64 \
+     android.hardware.gnss@2.1-service-qti \
+     libbatching \
+     libgeofencing \
+     libgnss
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
