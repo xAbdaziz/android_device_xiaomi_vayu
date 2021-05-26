@@ -20,7 +20,7 @@
         android:key="audio"
         android:title="@string/audio_title">
 
-        <com.xiaomi.parts.preferences.SecureSettingSwitchPreference
+        <com.ssos.support.preferences.SecureSettingSwitchPreference
             android:defaultValue="false"
             android:key="dirac_enabled"
             android:summary="@string/dirac_summary"
@@ -96,7 +96,7 @@
         android:key="usb_fastcharge"
         android:title="@string/usb_fastcharge_title" >
 
-        <com.xiaomi.parts.preferences.SecureSettingSwitchPreference
+        <com.ssos.support.preferences.SecureSettingSwitchPreference
             android:key="fastcharge"
             android:defaultValue="true"
             android:title="@string/fastcharge_title"

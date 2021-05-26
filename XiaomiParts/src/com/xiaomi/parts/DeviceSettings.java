@@ -26,7 +26,7 @@ import androidx.preference.PreferenceCategory;
 import com.xiaomi.parts.kcal.KCalSettingsActivity;
 import com.xiaomi.parts.preferences.CustomSeekBarPreference;
 import com.xiaomi.parts.preferences.SecureSettingListPreference;
-import com.xiaomi.parts.preferences.SecureSettingSwitchPreference;
+import com.ssos.support.preferences.SecureSettingSwitchPreference;
 import com.xiaomi.parts.preferences.VibrationSeekBarPreference;
 import com.xiaomi.parts.speaker.ClearSpeakerActivity;
 

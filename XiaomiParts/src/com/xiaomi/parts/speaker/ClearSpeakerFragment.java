@@ -29,7 +29,7 @@ import android.util.Log;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
-import androidx.preference.SwitchPreference;
+import com.ssos.support.preferences.SwitchPreference;
 
 import com.xiaomi.parts.R;
 
