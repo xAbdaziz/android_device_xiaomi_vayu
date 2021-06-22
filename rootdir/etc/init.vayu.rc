@@ -31,3 +31,10 @@ on boot
     # Vibration
     chown system system /sys/module/qti_haptics/parameters/vmax_mv_override
     chmod 0660 /sys/module/qti_haptics/parameters/vmax_mv_override
+
+on post-fs-data
+
+    # Allow system to read measured_fps
+    chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
+    chmod 0444 /sys/class/drm/sde-crtc-0/measured_fps
+    
