@@ -1,4 +1,4 @@
-# Common device tree for Xiaomi SM8150 devices
+# device tree for POCO X3 Pro
 
 ```
 #

@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter cepheus raphael vayu,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),vayu)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
