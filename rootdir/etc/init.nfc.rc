@@ -11,5 +11,5 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     group nfc
     disabled
 
-on boot && property:ro.boot.product.hardware.sku=nfc
+on boot && property:ro.boot.product.hardware.sku=vayu
     enable vendor.nfc_hal_service
