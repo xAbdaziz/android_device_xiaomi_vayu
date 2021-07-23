@@ -639,14 +639,9 @@ vendor/bin/slim_daemon|2555b1760ed981121eeb2ede58b7841f323a3a40
 vendor/bin/xtra-daemon|34b732316da7aa3c8c8daf0ac488d7098d72d2e1
 vendor/bin/xtwifi-client|e6139f0d1c9e2d059fe727be657874bc45def6a1
 vendor/bin/xtwifi-inet-agent|73eb9393ba634d805055eea3fbea64785063be4b
-vendor/etc/apdr.conf|52c9b4265e55c87ddf07c9b60817b3c09420712a
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
-vendor/etc/izat.conf|2ac768473abee2bf6af0bbc59233d30562e9fb22
-vendor/etc/lowi.conf|2045e83483849a124e5fef052b59190f1b784df0
-vendor/etc/sap.conf|b5ea86d9d9ee36dc13194474d343dae36f6fa032
 -vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
-vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|5995d9a36118fad5dcafb788007cd6f79d24bf5f
 vendor/lib64/libcdfw.so|543b8282f4b6719113f04e14dd908137521e2bb5
 vendor/lib64/libcdfw_remote_api.so|558636f4fa4c17f29cb644c8c6e07766b7240005
