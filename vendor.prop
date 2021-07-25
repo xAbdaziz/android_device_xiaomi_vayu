@@ -165,6 +165,7 @@ vendor.display.enable_force_split=1
 vendor.display.enable_null_display=0
 vendor.display.enable_optimize_refresh=1
 vendor.display.idle_time=1100
+ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 
 # DRM
 drm.service.enabled=true
