@@ -233,7 +233,8 @@ PRODUCT_PACKAGES += \
     init.qcom.sensors.sh \
     init.qcom.sh \
     init.qcom.usb.sh \
-    init.qti.dcvs.sh
+    init.qti.dcvs.sh \
+    init.vayu.rc
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
